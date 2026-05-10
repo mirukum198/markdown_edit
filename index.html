@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Markdown見出し調整ツール</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Markdown見出し調整ツール</h1>
+
+        <div class="editor-section">
+            <textarea id="textInput" placeholder="ここにテキストを貼り付けてください..."></textarea>
+        </div>
+
+        <div class="controls">
+            <div class="control-group">
+                <h3>見出し調整</h3>
+                <button id="increaseHeading" class="btn">見出しレベルを上げる (+#)</button>
+                <button id="decreaseHeading" class="btn">見出しレベルを下げる (-#)</button>
+            </div>
+
+            <div class="control-group">
+                <button id="copyText" class="btn btn-secondary">テキストをコピー</button>
+                <button id="clearText" class="btn btn-secondary">クリア</button>
+            </div>
+        </div>
+
+        <div id="notification" class="notification"></div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
