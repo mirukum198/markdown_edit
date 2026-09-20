@@ -68,6 +68,15 @@ h1 {
     margin-bottom: 5px;
 }
 
+.field {
+    flex: 1 1 200px;
+    padding: 10px 12px;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    font-family: monospace;
+    font-size: 14px;
+}
+
 .btn {
     padding: 12px 20px;
     border: none;

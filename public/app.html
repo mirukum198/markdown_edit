@@ -22,6 +22,18 @@
             </div>
 
             <div class="control-group">
+                <h3>括弧調整</h3>
+                <button id="collapseBrackets" class="btn">連続する括弧を集約 ([[ → [ / ]] → ])</button>
+            </div>
+
+            <div class="control-group">
+                <h3>置換(正規表現)</h3>
+                <input type="text" id="searchPattern" class="field" placeholder="検索する文字列 例: ([\[\]])\1" spellcheck="false">
+                <input type="text" id="replaceWith" class="field" placeholder="置換する文字列 例: \1" spellcheck="false">
+                <button id="replaceAll" class="btn">すべて置換</button>
+            </div>
+
+            <div class="control-group">
                 <button id="copyText" class="btn btn-secondary">テキストをコピー</button>
                 <button id="clearText" class="btn btn-secondary">クリア</button>
             </div>
